@@ -1,9 +1,9 @@
 <div class="mt-75 layout-column justify-content-center align-items-center">
 
-<form (submit)="onAddCustomer()">
+<form>
   <section class="layout-row align-items-center justify-content-center">
     <input type="text" class="large" name="value" placeholder="Name" data-test-id="app-input" [(ngModel)]="value">
-    <button type="submit" class="ml-30" data-test-id="submit-button">Add Customer</button>
+    <button type="submit" class="ml-30" data-test-id="submit-button" (click)="onAddCustomer()">Add Customer</button>
   </section>
 </form>
 

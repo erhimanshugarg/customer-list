@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-03-01T16:35:27" id="0" hostname="workspace3bsgm8k8kd6qtbmq.ws-c84484c46-vvjhp" tests="4" errors="1" failures="4" time="0.295">
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-03-01T16:37:24" id="0" hostname="workspace3bsgm8k8kd6qtbmq.ws-c84484c46-vvjhp" tests="4" errors="1" failures="4" time="0.278">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
   </properties>
-  <testcase name="CustomerListComponent Should render the initial UI as expected" time="0.164" classname=".CustomerListComponent">
+  <testcase name="CustomerListComponent Should render the initial UI as expected" time="0.222" classname=".CustomerListComponent">
     <failure type="">Error: Expected &lt;ul _ngcontent-a-c45 data-test-id="customer-list" class="styled mt-50"&gt; to be falsy.
     at &lt;Jasmine&gt;
     at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:53:42)
@@ -11,34 +11,54 @@
     at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
 </failure>
   </testcase>
-  <testcase name="CustomerListComponent Should not add any customer if input is empty" time="0.023" classname=".CustomerListComponent">
-    <failure type="">Error: Expected &lt;ul _ngcontent-a-c46 data-test-id="customer-list" class="styled mt-50"&gt;...&lt;/ul&gt; to be null.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:88:42
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">Error: Expected &lt;li _ngcontent-a-c46 class="slide-up-fade-in" data-test-id="list-item0"&gt; to be null.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:89:39
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="CustomerListComponent Should clear the input after submit btn is clicked" time="0.026" classname=".CustomerListComponent">
-    <failure type="">Error: Expected '' to equal 'Steve'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:79:49
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="CustomerListComponent Should add new customers on btn click" time="0.082" classname=".CustomerListComponent">
-    <failure type="">Error: Expected '' to equal 'Steve'.
+  <testcase name="CustomerListComponent Should add new customers on btn click" time="0.025" classname=".CustomerListComponent">
+    <failure type="">Error: Expected 'John' to equal 'Steve'.
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:70:53
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:69:8
+</failure>
+    <failure type="">Error: Expected 'Bob' to equal 'John'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:70:53
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:69:8
+</failure>
+    <failure type="">TypeError: Cannot read property 'innerHTML' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:70:41
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:69:8
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+</failure>
+  </testcase>
+  <testcase name="CustomerListComponent Should clear the input after submit btn is clicked" time="0.017" classname=".CustomerListComponent">
+    <failure type="">TypeError: Cannot read property 'innerHTML' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:79:37
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+  </testcase>
+  <testcase name="CustomerListComponent Should not add any customer if input is empty" time="0.014" classname=".CustomerListComponent">
+    <failure type="">Error: Expected &lt;ul _ngcontent-a-c48 data-test-id="customer-list" class="styled mt-50"&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:88:42
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
 </failure>
   </testcase>
   <system-out>
