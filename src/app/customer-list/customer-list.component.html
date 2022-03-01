@@ -8,7 +8,7 @@
 </form>
 
 
-  <ul class="styled mt-50" data-test-id="customer-list" *ngIf="customers.length">
+  <ul class="styled mt-50" data-test-id="customer-list" *ngIf="customers.length>0">
     <li class="slide-up-fade-in"
         [attr.data-test-id]="'list-item'+ index"
         *ngFor="let customer of customers; let index = index;">{{customer}}</li>
