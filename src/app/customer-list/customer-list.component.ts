@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class CustomerListComponent implements OnInit {
   customers : string[] = [];
-  public value: string = '';
+  public value: string;
 
 
   ngOnInit() {
@@ -17,7 +17,7 @@ export class CustomerListComponent implements OnInit {
     if ( this.value ) {
       this.customers.push(this.value);
     }
-    this.value = '';
+    this.value = null;
   }
 
 
