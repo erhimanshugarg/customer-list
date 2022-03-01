@@ -18,6 +18,7 @@ export class CustomerListComponent implements OnInit {
     if ( this.value ) {
       this.customers.push(this.value);
     }
+    this.value = null;
     this.nameInput.nativeElement.value = null;
   }
 
