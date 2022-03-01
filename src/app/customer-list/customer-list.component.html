@@ -6,8 +6,6 @@
     <button type="submit" class="ml-30" data-test-id="submit-button" (click)="onAddCustomer()">Add Customer</button>
   </section>
 </form>
-
-
   <ul class="styled mt-50" data-test-id="customer-list" *ngIf="customers?.length>0">
     <li class="slide-up-fade-in"
         [attr.data-test-id]="'list-item'+ index"
