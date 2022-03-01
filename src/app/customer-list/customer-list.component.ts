@@ -14,13 +14,14 @@ export class CustomerListComponent implements OnInit {
   ngOnInit() {
   }
 
-  public onAddCustomer(): void {
-    console.log('value', this.value);
-    if ( this.value ) {
-      this.customers.push(this.value);
+  public onAddCustomer(value): void {
+    
+    if ( value ) {
+      console.log('value', value);
+      this.customers.push(value);
       console.log(this.customers);
     }
-    this.value = null;
+   
     this.nameInput.nativeElement.value = null;
   }
 
