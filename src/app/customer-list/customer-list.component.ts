@@ -7,7 +7,6 @@ import {Component, OnInit, ViewChild} from '@angular/core';
 })
 export class CustomerListComponent implements OnInit {
   customers : string[] = [];
-  public value: string ='';
 
   @ViewChild('name') nameInput;
 
@@ -17,9 +16,7 @@ export class CustomerListComponent implements OnInit {
   public onAddCustomer(value): void {
     
     if ( value ) {
-      console.log('value', value);
       this.customers.push(value);
-      console.log(this.customers);
     }
    
     this.nameInput.nativeElement.value = null;

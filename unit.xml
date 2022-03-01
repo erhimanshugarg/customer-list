@@ -1,66 +1,21 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-03-01T17:14:40" id="0" hostname="workspace3bsgm8k8kd6qtbmq.ws-c84484c46-vvjhp" tests="4" errors="0" failures="2" time="0.287">
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-03-01T17:18:34" id="0" hostname="workspace3bsgm8k8kd6qtbmq.ws-c84484c46-vvjhp" tests="4" errors="0" failures="0" time="0.114">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
   </properties>
-  <testcase name="CustomerListComponent Should render the initial UI as expected" time="0.127" classname=".CustomerListComponent"/>
-  <testcase name="CustomerListComponent Should not add any customer if input is empty" time="0.02" classname=".CustomerListComponent"/>
-  <testcase name="CustomerListComponent Should add new customers on btn click" time="0.124" classname=".CustomerListComponent">
-    <failure type="">Error: Expected 'John' to equal 'Steve'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:70:53
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:69:8
-</failure>
-    <failure type="">Error: Expected 'Bob' to equal 'John'.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:70:53
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:69:8
-</failure>
-    <failure type="">TypeError: Cannot read property 'innerHTML' of null
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:70:41
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:69:8
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
-    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
-</failure>
-  </testcase>
-  <testcase name="CustomerListComponent Should clear the input after submit btn is clicked" time="0.016" classname=".CustomerListComponent">
-    <failure type="">Error: Expected null to be truthy.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:78:42
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">TypeError: Cannot read property 'innerHTML' of null
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:79:37
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
-    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
-    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
-    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
-    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
-    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
-    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
-</failure>
-  </testcase>
+  <testcase name="CustomerListComponent Should not add any customer if input is empty" time="0.06" classname=".CustomerListComponent"/>
+  <testcase name="CustomerListComponent Should clear the input after submit btn is clicked" time="0.022" classname=".CustomerListComponent"/>
+  <testcase name="CustomerListComponent Should render the initial UI as expected" time="0.015" classname=".CustomerListComponent"/>
+  <testcase name="CustomerListComponent Should add new customers on btn click" time="0.017" classname=".CustomerListComponent"/>
   <system-out>
-    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', ''
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', ''
+    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', 'Steve'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: ['Steve']
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', 'Steve'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: ['Steve']
 ,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', 'John'
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: ['John']
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: ['Steve', 'John']
 ,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', 'Bob'
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: ['John', 'Bob']
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 'value', ''
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: ['Steve', 'John', 'Bob']
 
 ]]>
   </system-out>
