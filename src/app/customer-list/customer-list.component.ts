@@ -6,9 +6,16 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./customer-list.component.scss']
 })
 export class CustomerListComponent implements OnInit {
-  customers : string[] ;
+  customers : string[] = [];
+  public value: string = '';
+
 
   ngOnInit() {
   }
+
+  public onAddCustomer(): void {
+    this.customers.push(this.value);
+  }
+
 
 }

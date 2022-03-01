@@ -1,13 +1,17 @@
 <div class="mt-75 layout-column justify-content-center align-items-center">
+
+<form (submit)="onAddCustomer()">
   <section class="layout-row align-items-center justify-content-center">
-    <input type="text" class="large" placeholder="Name" data-test-id="app-input"/>
+    <input type="text" class="large" name="value" placeholder="Name" data-test-id="app-input" [(ngModel)]="value">
     <button type="submit" class="ml-30" data-test-id="submit-button">Add Customer</button>
   </section>
+</form>
+
 
   <ul class="styled mt-50" data-test-id="customer-list">
     <li class="slide-up-fade-in"
         [attr.data-test-id]="'list-item'+ index"
-        *ngFor="let customer of customers; let index = index;"></li>
+        *ngFor="let customer of customers; let index = index;">{{customer}}</li>
   </ul>
 
 </div>

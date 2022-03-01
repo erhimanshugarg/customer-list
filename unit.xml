@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-03-01T16:19:35" id="0" hostname="workspace3bsgm8k8kd6qtbmq.ws-c84484c46-vvjhp" tests="4" errors="1" failures="4" time="0.165">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="CustomerListComponent Should not add any customer if input is empty" time="0.127" classname=".CustomerListComponent">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
+    at &lt;Jasmine&gt;
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24199:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22102:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13753:1)
+    at NodeInjectorFactory.CustomerListComponent_Factory [as factory] (ng:///CustomerListComponent/ɵfac.js:3:49)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7826:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:20:16
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushValue (http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:19:38)
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:86:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="CustomerListComponent Should clear the input after submit btn is clicked" time="0.015" classname=".CustomerListComponent">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
+    at &lt;Jasmine&gt;
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24199:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22102:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13753:1)
+    at NodeInjectorFactory.CustomerListComponent_Factory [as factory] (ng:///CustomerListComponent/ɵfac.js:3:49)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7826:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:20:16
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushValue (http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:19:38)
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:75:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="CustomerListComponent Should add new customers on btn click" time="0.012" classname=".CustomerListComponent">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
+    at &lt;Jasmine&gt;
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24199:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22102:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13753:1)
+    at NodeInjectorFactory.CustomerListComponent_Factory [as factory] (ng:///CustomerListComponent/ɵfac.js:3:49)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7826:1)
+</failure>
+    <failure type="">TypeError: Cannot set property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:20:16
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+    at __awaiter (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:70:1)
+    at pushValue (http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:19:38)
+    at http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:58:11
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:960:1)
+</failure>
+  </testcase>
+  <testcase name="CustomerListComponent Should render the initial UI as expected" time="0.011" classname=".CustomerListComponent">
+    <failure type="">NullInjectorError: R3InjectorError(DynamicTestModule)[FormBuilder -&gt; FormBuilder]: 
+  NullInjectorError: No provider for FormBuilder!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'FormBuilder', 'FormBuilder' ] })
+    at &lt;Jasmine&gt;
+    at NullInjector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:915:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at R3Injector.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:11082:1)
+    at NgModuleRef$1.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24199:1)
+    at Object.get (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:22102:1)
+    at getOrCreateInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:3921:1)
+    at ɵɵdirectiveInject (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13753:1)
+    at NodeInjectorFactory.CustomerListComponent_Factory [as factory] (ng:///CustomerListComponent/ɵfac.js:3:49)
+    at getNodeInjectable (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:4029:1)
+    at instantiateRootComponent (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7826:1)
+</failure>
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:50:23)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'value' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer-list/customer-list.component.spec.ts:51:18)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:545:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:560:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
