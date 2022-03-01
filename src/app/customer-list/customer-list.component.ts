@@ -15,6 +15,7 @@ export class CustomerListComponent implements OnInit {
   }
 
   public onAddCustomer(): void {
+    console.log('value', this.value);
     if ( this.value ) {
       this.customers.push(this.value);
       console.log(this.customers);
